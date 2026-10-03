@@ -1,0 +1,6 @@
+{
+  "name": "VoltPlan - Engineering Off-Grid Solar Sizing",
+  "description": "Engineering-grade off-grid solar power system sizing, battery bank calculations, inverter & MPPT sizing, and 24-hour simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

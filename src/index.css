@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0b1329;
+  --bg-card: #111e38;
+  --bg-card-subtle: #172646;
+  --border-color: #1e3a5f;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+}
+
+.light {
+  --bg-primary: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f1f5f9;
+  --border-color: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0 !important;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0 !important;
+  overflow-x: hidden;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}
